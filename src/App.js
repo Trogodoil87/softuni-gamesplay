@@ -34,6 +34,7 @@ function App() {
           <Route path='/create' element={<Create />} />
           <Route path='/register' element={<Register />} />
           <Route path='/catalog' element={<Catalog games={games} />} />
+          <Route path="catalog/:gameId" element={<Details />} />
         </Routes>
       </main>
     </div>
