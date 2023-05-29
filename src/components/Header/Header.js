@@ -1,4 +1,4 @@
-export const NavBar = () => {
+export const Header = () => {
     return (
         <header>
         {/* Navigation */}
