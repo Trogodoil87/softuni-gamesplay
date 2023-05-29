@@ -1,17 +1,8 @@
-import { useState, useEffect } from "react";
-import * as gameService from "../../Services/gameService";
-import { Game } from "./Game"
+
+import { HomeItem } from "./HomeItem"
 
 
-export const Home = () => {
-    const [games, setGames] = useState([]);
-
-    useEffect(() => {
-        gameService.getAll()
-            .then(result => {
-                setGames(result);
-            });
-    }, [])
+export const Home = ({ games }) => {
 
     return (
         <section id="welcome-world">
@@ -24,7 +15,7 @@ export const Home = () => {
                 <h1>Latest Games</h1>
 
                 {games.length > 0
-                    ? games.map(x => <Game key={x._id} game={x} />)
+                    ? games.map(x => <HomeItem key={x._id} game={x} />)
                     : < p className="no-articles">No games yet</p>
                 }
             </div>
