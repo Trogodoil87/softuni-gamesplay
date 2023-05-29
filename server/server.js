@@ -1263,7 +1263,37 @@
     		}
     	},
     	likes: {
-    	}
+    	},
+        games: {
+            "a9bae6d8-793e-46c4-a9db-deb9e3484901": {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea1",
+                title: "CoverFire",
+                category: "Action",
+                maxLevel: "70",
+                imageUrl: "/images/CoverFire.png",
+                summary: "Best shooter action game.",
+                _createdOn: 1514935268135
+
+            },
+            "a9bae6d8-793e-46c4-a9db-deb9e3484902": {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea2",
+                title: "MineCraft",
+                category: "Arcade",
+                maxLevel: "250",
+                imageUrl: "/images/MineCraft.png",
+                summary: "Mine mine mine.",
+                _createdOn: 1614935268135
+            },
+            "a9bae6d8-793e-46c4-a9db-deb9e3484903": {
+                _ownerId: "35c62d76-8152-4626-8712-eeb96381bea3",
+                title: "Zombie Lang",
+                category: "Vertical Shooter",
+                maxLevel: "100",
+                imageUrl: "/images/ZombieLang.png",
+                summary: "Zombie Shooter for pros.",
+                _createdOn: 1714935268135
+            }
+        }
     };
     var settings = {
     	identity: identity,
